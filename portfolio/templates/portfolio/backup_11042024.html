@@ -1,0 +1,1464 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | Sreeshma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Workbench&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/backup_11042024.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/icon.png' %}" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Sreeshma</h1>
+<!--                <a href="index.html">-->
+<!--                    <img src="{% static 'images/career_arena.png' %}" alt="logo" width="120" height="120">-->
+<!--                </a>-->
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Hamburger button -->
+            <button class="hamburger-button">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </button>
+            <div class="mobile-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About -->
+    <div class="wrapper">
+        <div class="about-square">
+            <div class="identity-card">
+              <img class="my-dp" src="{% static 'images/linkedin dp.jpg' %}" alt="image" style="width:100%">
+              <h1 class="text-lg">SREESHMA</h1>
+              <hr align="center" style="margin:auto;" width="20%" color="#d9b99b">
+              <p class="title">FULL STACK DEVELOPER</p>
+
+              <p><button>
+                <div>
+                <a href="#"><i class="fa-brands fa-linkedin" style="margin-right:20px"></i></a>
+                <a href="#"><i class="fa-brands fa-github" style="margin-right:15px"></i></a>
+                <a href="#"><img class="icon" src="C:\Users\Sreeshma\Documents\portfolio\responsive_website\images\leetcode.png' %}" alt="" ></a>
+              </div>
+              </button></p>
+            </div>
+        </div>
+        <div class="intro-area">
+            <div class="intro-text">
+                <h1 class="text-xxl">Hi There!</h1>
+                <br>
+                <p style="line-height:2;text-align:justify;">I am a Full stack web developer with 5+ years of experience in developing user friendly and functionally fit web
+applications for PoCs and client requirements.</p>
+                <br>
+                <p style="line-height:2;text-align:justify;">With the orientation of frontend, backend and database technologies I have developed various responsive and full fledged ERP web
+applications for Accounting, Inventory Management and Workforce Management domains.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tab view -->
+    {% load static %}
+
+    <section class="skills-tab my-2">
+        <h2 class="text-center my-2" style="color:black !important;">
+            MY SKILLSET
+        </h2>
+        <h2 class="my-2" style="color:black !important;">
+            FRONTEND
+        </h2>
+        <div class="skill-container f-tab-card grid grid-2 f-head py-1 skill-head">
+            <p class="title text-center" style="text-decoration:underline;">
+                LANGUAGE
+            </p>
+            <p class="title text-center" style="text-decoration:underline;">
+                FRAMEWORK
+            </p>
+        </div>
+        <div class="skill-container f-tab-card grid grid-9 px-1 skill-rect">
+            <div class="card flex">
+                <img  src="{% static 'images/html.png' %}"  alt="" width="30" height="30">
+                <p>
+                    HTML
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/css.png' %}" alt="" width="30" height="30">
+                <p>
+                    CSS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/javascript.png' %}" alt="" width="30" height="30">
+                <p>
+                    JavaScript
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/bootstrap.png' %}" alt="" width="38" height="35">
+                <p>
+                    Bootstrap
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/tailwind.png' %}" alt="" width="38" height="35">
+                <p>
+                    Tailwind CSS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/AngularJS.png' %}" alt="" width="30" height="30">
+                <p>
+                    AngularJS
+                </p>
+            </div>
+            <div class="card flex">
+              <img  src="{% static 'images/html.png' %}" alt="sdfsd" style="width:100%">
+                <p>
+                    React
+                </p>
+            </div>
+        </div>
+        <div class="skill-container f-tab-card grid f-head py-1 skill-rect">
+            <p class="title text-center" style="text-decoration:underline;">
+                LIBRARY
+            </p>
+        </div>
+        <div class="skill-container f-tab-card grid grid-9 px-1 skill-body">
+            <div class="card flex">
+                <img src="{% static 'images/fabricjs.png' %}" alt="" width="30" height="30">
+                <p>
+                    FabricJS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/chartjs.png' %}" alt="" width="30" height="30">
+                <p>
+                    ChartJS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/canvasjs.png' %}" alt="" width="30" height="30">
+                <p>
+                    Canvas JS
+                </p>
+            </div>
+        </div>
+        <!-- Backend -->
+        <h2 class="md text-center my-2" style="color:black !important;">
+            BACKEND
+        </h2>
+        <div class="skill-container f-tab-card grid b-tab-head py-1 skill-head">
+            <p class="title text-center" style="text-decoration:underline;">
+                LIBRARY
+            </p>
+        </div>
+        <div class="skill-container grid grid-10 px-1 b-tab-card skill-body">
+            <div class="card flex b-card">
+                <img src="{% static 'images/Pandas.png' %}" alt="" width="30" height="30">
+                <p>
+                    Pandas
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/NumPy.png' %}" alt="" width="30" height="30">
+                <p>
+                    NumPy
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/reportlab.png' %}" alt="" width="30" height="30">
+                <p>
+                    ReportLab
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/Plotly.png' %}" alt="" width="30" height="30">
+                <p>
+                    Plotly
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/Matplotlib.png' %}" alt="" width="30" height="30">
+                <p>
+                    Matplotlib
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/openpyxl.png' %}" alt="" width="30" height="30">
+                <p>
+                    Openpyxl
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/seaborn.png' %}" alt="" width="30" height="30">
+                <p>
+                    Seaborn
+                </p>
+            </div>
+        </div>
+        <div class="skill-container f-tab-card grid grid-9 f-head py-1 skill-rect">
+            <p class="title text-center" style="text-decoration:underline;">
+                LANGUAGE
+            </p>
+            <p class="title text-center" style="text-decoration:underline;">
+                FRAMEWORK
+            </p>
+        </div>
+        <div class="skill-container f-tab-card grid grid-9 px-1 skill-body">
+            <div class="card flex b-card">
+                <img src="{% static 'images/Python.png' %}" alt="" width="30" height="30">
+                <p>
+                    Python
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/Django.png' %}" alt="" width="30" height="30">
+                <p>
+                    Django
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Desktop view -->
+    <section class="skills my-2">
+        <h2 class="md text-center my-2 f-tab" style="color:black !important;">
+            MY SKILLSET
+        </h2>
+        <h2 class="md text-center my-2 f-tab skill-container" style="color:black !important;">
+            FRONTEND
+        </h2>
+        <br>
+        <div class="skill-container f-card grid f-head py-1 skill-head f-tab">
+            <p class="title text-center" style="text-decoration:underline;">
+                LANGUAGE
+            </p>
+            <p class="title text-center" style="text-decoration:underline;">
+                FRAMEWORK
+            </p>
+            <p class="title text-center" style="text-decoration:underline;">
+                LIBRARY
+            </p>
+        </div>
+        <div class="skill-container f-card grid grid-9 px-1 skill-body f-tab">
+            <div class="card flex">
+                <img src="{% static 'images/html.png' %}" alt="" width="30" height="30">
+                <p>
+                    HTML
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/css.png' %}" alt="" width="30" height="30">
+                <p>
+                    CSS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/javascript.png' %}" alt="" width="30" height="30">
+                <p>
+                    JavaScript
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/bootstrap.png' %}" alt="" width="38" height="35">
+                <p>
+                    Bootstrap
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/tailwind.png' %}" alt="" width="38" height="35">
+                <p>
+                    Tailwind CSS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/AngularJS.png' %}" alt="" width="30" height="30">
+                <p>
+                    AngularJS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/React.png' %}" alt="" width="30" height="30">
+                <p>
+                    React
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/fabricjs.png' %}" alt="" width="30" height="30">
+                <p>
+                    FabricJS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/chartjs.png' %}" alt="" width="30" height="30">
+                <p>
+                    ChartJS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/canvasjs.png' %}" alt="" width="30" height="30">
+                <p>
+                    Canvas JS
+                </p>
+            </div>
+        </div>
+        <!-- Backend -->
+        <h2 class="md text-center my-2 f-tab" style="color:black !important;">
+            BACKEND
+        </h2>
+        <div class="skill-container grid b-head py-1 b-card skill-head f-tab">
+            <p class="title" style="text-decoration:underline;">
+                LANGUAGE
+            </p>
+            <p class="title text-center" style="text-decoration:underline;">
+                LIBRARY
+            </p>
+            <p class="title" style="text-decoration:underline;text-align:left;">
+                FRAMEWORK
+            </p>
+        </div>
+        <div class="skill-container grid grid-10 px1 b-card skill-body f-tab">
+            <div class="card flex b-card">
+                <img src="{% static 'images/Python.png' %}" alt="" width="30" height="30">
+                <p>
+                    Python
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/Django REST.png' %}" alt="" width="30" height="30">
+                <p>
+                    Django REST Framework
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/Pandas.png' %}" alt="" width="30" height="30">
+                <p>
+                    Pandas
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/NumPy.png' %}" alt="" width="30" height="30">
+                <p>
+                    NumPy
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/reportlab.png' %}" alt="" width="30" height="30">
+                <p>
+                    ReportLab
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/Plotly.png' %}" alt="" width="30" height="30">
+                <p>
+                    Plotly
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/Matplotlib.png' %}" alt="" width="30" height="30">
+                <p>
+                    Matplotlib
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/openpyxl.png' %}" alt="" width="30" height="30">
+                <p>
+                    Openpyxl
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/seaborn.png' %}" alt="" width="30" height="30">
+                <p>
+                    Seaborn
+                </p>
+            </div>
+            <div class="card flex b-card">
+                <img src="{% static 'images/Django.png' %}" alt="" width="30" height="30">
+                <p>
+                    Django
+                </p>
+            </div>
+        </div>
+        <!-- Database -->
+        <h2 class="md text-center my-2" style="color:black !important;">
+            DATABASE
+        </h2>
+        <div class="skill-container grid grid-5 px-1 d-card">
+            <div class="card flex d-card">
+                <img src="{% static 'images/MySQL.png' %}" alt="" width="30" height="30">
+                <p>
+                    MySQL
+                </p>
+            </div>
+            <div class="card flex d-card">
+                <img src="{% static 'images/PostgresSQL.png' %}" alt="" width="30" height="30">
+                <p>
+                    PostgresSQL
+                </p>
+            </div>
+            <div class="card flex d-card">
+                <img src="{% static 'images/SQLite.png' %}" alt="" width="30" height="30">
+                <p>
+                    SQLite
+                </p>
+            </div>
+            <div class="card flex d-card">
+                <img src="{% static 'images/html.png' %}" alt="" width="30" height="30">
+                <p>
+                    PySpark
+                </p>
+            </div>
+            <div class="card flex d-card">
+                <img src="{% static 'images/SQLAlchemy.png' %}" alt="" width="40" height="40">
+                <p>
+                    SQL Alchemy
+                </p>
+            </div>
+            <div class="card flex d-card">
+                <img src="{% static 'images/SQLStudio.png' %}" alt="" width="40" height="30">
+                <p>
+                    SQL Studio
+                </p>
+            </div>
+        </div>
+        <!-- Tools -->
+        <h2 class="md text-center my-2" style="color:black !important;">
+            TOOLS
+        </h2>
+        <div class="skill-container grid grid-7 px-1 t-card">
+            <div class="card flex t-card">
+                <img src="{% static 'images/Git.png' %}" alt="" width="30" height="30">
+                <p>
+                    GIT
+                </p>
+            </div>
+            <div class="card flex t-card">
+                <img src="{% static 'images/Azure Devops.png' %}" alt="" width="30" height="30">
+                <p>
+                    Azure Devops
+                </p>
+            </div>
+            <div class="card flex t-card">
+                <img src="{% static 'images/jenkins.png' %}" alt="" width="30" height="30">
+                <p>
+                    Jenkins
+                </p>
+            </div>
+            <div class="card flex t-card">
+                <img src="{% static 'images/Bash.png' %}" alt="" width="30" height="30">
+                <p>
+                    Bash
+                </p>
+            </div>
+            <div class="card flex t-card">
+                <img src="{% static 'images/SonarQube.png' %}" alt="" width="32" height="32">
+                <p>
+                    SonarQube
+                </p>
+            </div>
+            <div class="card flex t-card">
+                <img src="{% static 'images/WordPress.png' %}" alt="" width="30" height="30">
+                <p>
+                    WordPress
+                </p>
+            </div>
+            <div class="card flex t-card">
+                <img src="{% static 'images/seo.jpg' %}" alt="" width="40" height="40">
+                <p>
+                    SEO
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- mobile view -->
+    <section class="skills-sm my-2">
+        <h2 class="md text-center my-2" style="color:black !important;">
+            MY SKILLSET
+        </h2>
+        <h2 class="md text-center my-2" style="color:black !important;">
+            FRONTEND
+        </h2>
+        <div class="skill-container f-card grid-3 f-head py-1 skill-head">
+            <p class="title text-left" style="text-decoration:underline;">
+                LANGUAGE
+            </p>
+        </div>
+        <div class="skill-container f-card grid grid-3">
+            <div class="card flex">
+                <img src="{% static 'images/html.png' %}" alt="" width="25" height="25">
+                <p>
+                    HTML
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/css.png' %}" alt="" width="25" height="25">
+                <p>
+                    CSS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/javascript.png' %}" alt="" width="25" height="25">
+                <p>
+                    JavaScript
+                </p>
+            </div>
+        </div>
+        <div class="skill-container f-card grid-3 f-head py-1">
+            <p class="title text-left" style="text-decoration:underline;">
+                LIBRARY
+            </p>
+        </div>
+        <div class="skill-container f-card grid grid-3">
+            <div class="card flex">
+                <img src="{% static 'images/fabricjs.png' %}" alt="" width="25" height="25">
+                <p>
+                    FabricJS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/chartjs.png' %}" alt="" width="25" height="25">
+                <p>
+                    ChartJS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/canvasjs.png' %}" alt="" width="25" height="25">
+                <p>
+                    Canvas JS
+                </p>
+            </div>
+        </div>
+        <div class="skill-container f-card grid-3 f-head py-1">
+            <p class="title text-left" style="text-decoration:underline;">
+                FRAMEWORK
+            </p>
+        </div>
+        <div class="skill-container grid grid-3 skill-body">
+            <div class="card flex">
+                <img src="{% static 'images/bootstrap.png' %}" alt="" width="25" height="25">
+                <p>
+                    Bootstrap
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/tailwind.png' %}" alt="" width="25" height="25">
+                <p>
+                    Tailwind CSS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/AngularJS.png' %}" alt="" width="25" height="25">
+                <p>
+                    AngularJS
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/React.png' %}" alt="" width="25" height="25">
+                <p>
+                    React
+                </p>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <h2 class="md text-center my-2" style="color:black !important;">
+            BACKEND
+        </h2>
+        <div class="skill-container f-card grid grid-3 f-head py-1 skill-head">
+            <p class="title text-left" style="text-decoration:underline;">
+                LANGUAGE
+            </p>
+        </div>
+        <div class="skill-container grid grid-3 skill-body">
+            <div class="card flex">
+                <img src="{% static 'images/Python.png' %}" alt="" width="25" height="25">
+                <p>
+                    Python
+                </p>
+            </div>
+        </div>
+        <div class="skill-container f-card grid-3 f-head py-1 skill-head">
+            <p class="title text-left" style="text-decoration:underline;">
+                FRAMEWORK
+            </p>
+            <div class="card flex">
+                <img src="{% static 'images/Django.png' %}" alt="" width="25" height="25">
+                <p>
+                    Django
+                </p>
+            </div>
+        </div>
+        <div class="skill-container f-card grid-3 f-head py-1 skill-head">
+            <p class="title text-left" style="text-decoration:underline;">
+                LIBRARY
+            </p>
+        </div>
+        <div class="skill-container grid grid-3 skill-body">
+            <div class="card flex">
+                <img src="{% static 'images/Django REST.png' %}" alt="" width="25" height="25">
+                <p>
+                    Django REST Framework
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/Pandas.png' %}" alt="" width="25" height="25">
+                <p>
+                    Pandas
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/NumPy.png' %}" alt="" width="25" height="25">
+                <p>
+                    NumPy
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/reportlab.png' %}" alt="" width="25" height="25">
+                <p>
+                    ReportLab
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/Plotly.png' %}" alt="" width="25" height="25">
+                <p>
+                    Plotly
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/Matplotlib.png' %}" alt="" width="25" height="25">
+                <p>
+                    Matplotlib
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/openpyxl.png' %}" alt="" width="25" height="25">
+                <p>
+                    Openpyxl
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/seaborn.png' %}" alt="" width="25" height="25">
+                <p>
+                    Seaborn
+                </p>
+            </div>
+        </div>
+
+        <!-- Database -->
+        <h2 class="md text-center my-2" style="color:black !important;">
+            DATABASE
+        </h2>
+        <div class="skill-container grid grid-3 skill-body">
+            <div class="card flex">
+                <img src="{% static 'images/MySQL.png' %}" alt="" width="30" height="30">
+                <p>
+                    MySQL
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/PostgresSQL.png' %}" alt="" width="30" height="30">
+                <p>
+                    PostgresSQL
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/SQLite.png' %}" alt="" width="30" height="30">
+                <p>
+                    SQLite
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/html.png' %}" alt="" width="30" height="30">
+                <p>
+                    PySpark
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/SQLAlchemy.png' %}" alt="" width="40" height="40">
+                <p>
+                    SQL Alchemy
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/SQLStudio.png' %}" alt="" width="40" height="30">
+                <p>
+                    SQL Studio
+                </p>
+            </div>
+        </div>
+        <!-- Tools -->
+        <h2 class="md text-center my-2" style="color:black !important;">
+            TOOLS
+        </h2>
+        <div class="skill-container grid grid-3 skill-body">
+            <div class="card flex">
+                <img src="{% static 'images/Git.png' %}" alt="" width="30" height="30">
+                <p>
+                    GIT
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/Azure Devops.png' %}" alt="" width="30" height="30">
+                <p>
+                    Azure Devops
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/jenkins.png' %}" alt="" width="30" height="30">
+                <p>
+                    Jenkins
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/Bash.png' %}" alt="" width="30" height="30">
+                <p>
+                    Bash
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/SonarQube.png' %}" alt="" width="32" height="32">
+                <p>
+                    SonarQube
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/WordPress.png' %}" alt="" width="30" height="30">
+                <p>
+                    WordPress
+                </p>
+            </div>
+            <div class="card flex">
+                <img src="{% static 'images/seo.jpg' %}" alt="" width="30" height="30">
+                <p>
+                    SEO
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--    Pricing  -->
+    <section class="pricing">
+
+        <div class="container-sm">
+            <h2 class="md text-center my-2" style="color:black !important;font-family:monospace !important;">
+                PROJECTS
+            </h2>
+            <p class="pricing-subheading text-md text-center">
+                Domains I have worked on
+            </p>
+            <div class="pricing-grid">
+            <!-- Pricing card 1-->
+                <div class="card bg-light" style="position:relative;">
+                    <div class="pricing-card-header">
+                        <h5 class="pricing-heading text-lg">
+                            Enterprise Web Apps
+                        </h5>
+                        <p class="pricing-card-subheading">
+                            Full fledged web application for enterprise management
+                        </p>
+                    </div>
+                    <div class="pricing-card-body card-body">
+                        <ul>
+                            <li>
+                                <i class="fas fa-check"></i>Inventory Management
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Appointment Schedule
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Workforce Collaboration
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Attrition Analysis
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+<!--                Pricing card 2-->
+                                <div class="card bg-black" style="position:relative;">
+                    <div class="pricing-card-header">
+                        <h4 class="pricing-heading text-lg">
+                            Banking Web Apps
+                        </h4>
+                        <p class="pricing-card-subheading">
+                            Computation based on real time ETL data for finance institution
+                        </p>
+                    </div>
+                    <div class="pricing-card-body card-body">
+                        <ul>
+                            <li>
+                                <i class="fas fa-check"></i>CX dashboard
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Balanced protfolio
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>AIBA - forecast
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>OC Platform
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                            <!-- Pricing card 1-->
+                <div class="card bg-light" style="position:relative;">
+                    <div class="pricing-card-header">
+                        <h4 class="pricing-heading text-lg">
+                            Static/Dynamic Websites
+                        </h4>
+                        <p class="pricing-card-subheading">
+                            Full fledged web application for enterprise management
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <i class="fas fa-check"></i>Institution Webpage
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Photographer Portfolio
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Static Blogs
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project links -->
+    <section class="projects">
+        <div class="container-sm">
+            <h2 class="text-center" style="font-family:monospace;">
+                PROOF OF CONCEPT
+            </h2>
+            <div class="demo-grid">
+            <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;">
+                    <div class="pricing-card-header">
+                        <p>
+                            <b>OC Platform </b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Unified web portal to access all financial applications
+                            </p>
+                        </p>
+                    </div>
+                    <div class="pricing-card-body card-body pricing-card-subheading" >
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Exportable reports
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/business-case.git" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+
+            <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;">
+                    <div class="pricing-card-header">
+                        <p>
+                            <b>CX Analysis</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Application to show comparative scores and insights
+                            </p>
+                        </p>
+                    </div>
+                    <div class="pricing-card-body card-body pricing-card-subheading" >
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Bird's eye view
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/business-case.git" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+
+            <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;">
+                    <div class="card-header">
+                        <p class="">
+                            <b>Show Planner</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Application to get recommended shows to be aired based on revenue
+                            </p>
+                        </p>
+                    </div>
+                    <div class="pricing-card-body card-body pricing-card-subheading" >
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> User Friendly Interface
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/business-case.git" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+<!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;">
+                    <div class="card-header">
+                        <p class="">
+                            <b>Churn Analytics</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Application to get insights on client churn rate factors
+                            </p>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Data visualization
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/business-case.git" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+                <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;">
+                    <div class="card-header">
+                        <p class="">
+                            <b>Business Case Tool</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Application to get insights on priority cases to be handled
+                            </p>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Composite score calculations
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/business-case.git" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+                <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;">
+                    <div class="card-header">
+                        <p class="">
+                            <b>Inventory ERP</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Application to create multiple warehouses and manage stock movements
+                            </p>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Integrated Report Tool
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/business-case.git" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+                <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;">
+                    <div class="card-header">
+                        <p class="">
+                            <b>Accounting ERP</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Application to get insights on income / expense and budget forecasting
+                            </p>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fa fa-caret-right" ></i> Budget Computations<br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/business-case.git" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+                <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;">
+                    <div class="card-header">
+                        <p class="">
+                            <b>Organization ERP</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Application to manage the business process of various departments
+                            </p>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Interconnected API features
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/business-case.git" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+                <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;"">
+                    <div class="card-header">
+                        <p class="">
+                            <b>Groupchat App</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Application to establish group communication
+                            </p>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Enhanced UX design
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/group_chat_app" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+                <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;">
+                    <div class="card-header">
+                        <p class="">
+                            <b>ESG Dashboard</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Application to track investment products
+                            </p>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Analytics Portfolio
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/business-case.git" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+                <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;"">
+                    <div class="card-header">
+                        <p class="">
+                            <b>Photographer Portfolio</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Webpage for
+                            </p>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Enhanced UX design
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/group_chat_app" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+                <!-- Pricing card 1-->
+                <div class="card" style="background:#F8F2F5;position:relative;height:200px;"">
+                    <div class="card-header">
+                        <p class="">
+                            <b>Institution Website</b>
+                            <p style="margin-bottom:10px;margin-top:10px;">
+                                Webpage for
+                            </p>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li style="line-height:2;">
+                                <i class="fas fa-caret-right"></i> Enhanced UX design
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="position:absolute;left: 0;right: 0;bottom:15px;text-align:center;">
+                        <a href="https://sreeshma.pythonanywhere.com/" target="_blank" class="btn btn-primary btn-block project-button" style="border:1px solid #009E60;">Demo</a>
+                        <a href="https://github.com/Sreeshma-S/group_chat_app" target="_blank" class="btn btn-primary btn-block project-button">Code</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+    <h2 class="experience-title" style="text-align:center;font-family:monospace;">RESUME</h2><br>
+
+      <section class="experience">
+
+        <div class="resume-container" style="background:#f4ece6;max-width:850px !important;">
+          <div style="max-width:685px;margin: 0 auto;padding: 25px 15px;">
+            <h2 class="experience-title" style="font-family:monospace;">PROFESSIONAL SUMMARY</h2><br>
+
+            <div class="row">
+              <div style="float: left;width: 35%;">
+                <div class="experience-title" style="font-size:14px;font-weight:600;">Capgemini</div>
+                <div style="font-size:11px">Mar 2021 – Sep 2023</div>
+              </div>
+              <div style="float: left;width: 5;">
+                  <div class="timeline-middle">
+                     <div class="timeline-circle"></div>
+                  </div>
+              </div>
+              <div style="float: left;width: 60%;">
+                  <div style="width:3px; height:100%;background-color:#d9b99b;">
+                    <div class="experience-title text-center" style="font-family:Alegreya;font-size:16px;font-weight:550;width:450px !important;">Senior Consultant</div>
+                    <div class="company-description" >
+                        <p style="text-align:justify;font-size:13px;width:400px !important;font-weight:500;margin-left:30px;">
+                        Building prototypes and KPI applications for PoCs and clients
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                  </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div style="float: left;width: 35%;">
+                <div class="experience-title" style="font-size:14px;font-weight:600;">Societe Generale<br><span style="font-size:10px;"> [Client]</span></div>
+                <div style="font-size:11px">May 2022 - May 2023</div>
+              </div>
+              <div style="float: left;width: 5;">
+                  <div class="timeline-middle">
+                     <div class="timeline-circle"></div>
+                  </div>
+              </div>
+              <div style="float: left;width: 60%;">
+                  <div style="width:3px; height:100%;background-color:#d9b99b;">
+                    <div class="experience-title text-center" style="font-family:Alegreya;font-size:16px;font-weight:550;width:450px !important;">Specialist Software Engineer</div>
+                    <div class="company-description" >
+                        <p style="text-align:justify;font-size:13px;font-weight:500;width:400px !important;margin-left:30px;">
+                            Building sophisticated desktop apps for investment computation modules
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div style="float: left;width: 35%;">
+                <div class="experience-title" style="font-size:14px;font-weight:600;">CIOC FMCG Pvt Ltd</div>
+                <div style="font-size:11px">Jul 2019 – Mar 2021</div>
+              </div>
+              <div style="float: left;width: 5;">
+                  <div class="timeline-middle">
+                     <div class="timeline-circle"></div>
+                  </div>
+              </div>
+              <div style="float: left;width: 60%;">
+                  <div style="width:3px; height:100%;background-color:#d9b99b;">
+                    <div class="experience-title text-center" style="font-family:Alegreya;font-size:16px;font-weight:550;width:450px !important;">Full Stack Developer</div>
+                    <div class="company-description" >
+                        <p style="text-align:justify;font-size:13px;font-weight:500;width:400px !important;margin-left:30px;">
+                            Building ERP apps for managing organizational operations
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                  </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div style="float: left;width: 35%;">
+                <div class="experience-title" style="font-size:14px;font-weight:600;">Wizklub Learning</div>
+                <div style="font-size:11px">Sep 2018 – Jun 2019</div>
+              </div>
+              <div style="float: left;width: 5;">
+                  <div class="timeline-middle">
+                     <div class="timeline-circle"></div>
+                  </div>
+              </div>
+              <div style="float: left;width: 60%;">
+                  <div style="width:3px; height:100%;background-color:#d9b99b;">
+                    <div class="experience-title text-center" style="font-family:Alegreya;font-size:16px;font-weight:550;width:450px !important;">Content Developer</div>
+                    <div class="company-description" >
+                        <p style="text-align:justify;font-size:13px;font-weight:500;width:400px !important;margin-left:30px;">
+                     Developing content for learning, & supporting automation in scheduling events
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div style="float: left;width: 35%;">
+                <div class="experience-title" style="font-size:14px;font-weight:600;">iTech India Pvt Ltd</div>
+                <div style="font-size:11px">Jul 2016 – Aug 2018</div>
+              </div>
+              <div style="float: left;width: 5;">
+                  <div class="timeline-middle">
+                     <div class="timeline-circle"></div>
+                  </div>
+              </div>
+              <div style="float: left;width: 60%;">
+                  <div style="width:3px; height:100%;background-color:#d9b99b;">
+                    <div class="experience-title text-center" style="font-family:Alegreya;font-size:16px;font-weight:550;width:450px !important;">Content Developer</div>
+                    <div class="company-description" >
+                        <p style="text-align:justify;font-size:13px;font-weight:500;width:400px !important;margin-left:30px;">
+                            Coordinating with client to promote their businesses with marketing strategies
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                  </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div style="float: left;width: 35%;">
+                <div class="experience-title" style="font-size:14px;font-weight:600;">Thomas Innovation</div>
+                <div style="font-size:11px">Jan 2015 – Jun 2016</div>
+              </div>
+              <div style="float: left;width: 5;">
+                  <div class="timeline-middle">
+                     <div class="timeline-circle"></div>
+                  </div>
+              </div>
+              <div style="float: left;width: 60%;">
+                  <div style="width:3px; height:100%;background-color:#d9b99b;">
+                    <div class="experience-title text-center" style="font-family:Alegreya;font-size:16px;font-weight:550;width:450px !important;">Technical Writer</div>
+                    <div class="company-description" >
+                        <p style="text-align:justify;font-size:13px;font-weight:500;width:400px !important;margin-left:30px;">
+                            Creating content for software products for documentation purpose
+                        </p>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+              <br>
+              <br>
+              <br>
+            <h2 class="experience-title" style="font-family:monospace;">EDUCATION SUMMARY</h2><br>
+            <div class="company-wrapper clearfix" style="margin-bottom:20px !important;">
+                <div class="experience-title" style="font-family:Alegreya;font-size:16px;font-weight:600;width:300px !important;">Bachelor's of Engineering</div>
+              <div style="font-size:11px">Aug 2010 – May 2014</div>
+            </div>
+
+            <div class="job-wrapper clearfix" style="margin-bottom:20px !important;">
+                <div class="experience-title text-center" style="font-family:Alegreya;font-size:16px;font-weight:550;width:500px !important;">B.E. in Electronics & Instrumentation</div>
+              <div class="company-description">
+                <p style="font-size:13px;font-weight:500;margin-left:30px;width:450px !important;" class="text-center">
+                    CGPA of 7.164 from Jeppiaar Engineering College
+                </p>
+              </div>
+            </div>
+
+        </div>
+        </div>
+      </section>
+
+
+<!--    &lt;!&ndash; Resume &ndash;&gt;-->
+<!--      <h2 class="experience-title" style="text-align:center;font-family:monospace;">RESUME</h2><br>-->
+<!--      <section class="experience">-->
+<!--        <div class="resume-container" style="background:#f4ece6;max-width:850px !important;">-->
+<!--          <div class="experience-wrapper" style="max-width:685px;margin: 0 auto;padding: 80px 15px;">-->
+<!--            <h2 class="experience-title" style="font-family:monospace;">PROFESSIONAL SUMMARY</h2><br>-->
+
+
+<!--            <div class="company-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title" style="font-size:14px;font-weight:600;">Capgemini</div>-->
+<!--              <div style="font-size:11px">Mar 2021 – Sep 2023</div>-->
+<!--            </div>-->
+
+<!--            <div class="job-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title text-center" style="font-size:14px;font-weight:500;">Senior Consultant</div>-->
+<!--              <div class="company-description" >-->
+<!--                <p style="text-align:justify;font-size:14px;">-->
+<!--                    Building prototypes and KPI applications for PoCs and clients-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <br>-->
+
+<!--            <div class="company-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title" style="font-size:14px;font-weight:600;">Societe Generale<br><span style="font-size:10px;"> [Client]</span></div>-->
+<!--              <div style="font-size:11px">May 2022 - May 2023</div>-->
+<!--            </div>-->
+
+<!--            <div class="job-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title text-center" style="font-size:14px;font-weight:500;">Specialist Software Engineer</div>-->
+<!--              <div class="company-description">-->
+<!--                <p style="text-align:justify;font-size:14px;">-->
+<!--                    Building sophisticated desktop apps for investment computation modules-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <hr style="opacity: 0.20">-->
+<!--            <br>-->
+
+<!--            <div class="company-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title" style="font-size:14px;font-weight:600;">CIOC FMCG Pvt Ltd</div>-->
+<!--              <div style="font-size:11px">Jul 2019 – Mar 2021</div>-->
+<!--            </div>-->
+
+<!--            <div class="job-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title text-center" style="font-size:14px;font-weight:500;">Full Stack Developer</div>-->
+<!--              <div class="company-description">-->
+<!--                <p style="text-align:justify;font-size:14px;">-->
+<!--                    Building ERP apps for managing organizational operations-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--                          <hr style="opacity: 0.20">-->
+<!--            <br>-->
+
+<!--            <div class="company-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title" style="font-size:14px;font-weight:600;">Wizklub Learning</div>-->
+<!--              <div style="font-size:11px">Sep 2018 – Jun 2019</div>-->
+<!--            </div>-->
+
+<!--            <div class="job-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title text-center" style="font-size:14px;font-weight:500;">Content Developer</div>-->
+<!--              <div class="company-description">-->
+<!--                <p style="text-align:justify;font-size:14px;">-->
+<!--                     Developing content for learning, & supporting automation in scheduling events-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <hr style="opacity: 0.20">-->
+<!--            <br>-->
+<!--            <div class="company-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title" style="font-size:14px;font-weight:600;">iTech India Pvt Ltd</div>-->
+<!--              <div style="font-size:11px"> Jul 2016 – Aug 2018</div>-->
+<!--            </div>-->
+
+<!--            <div class="job-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title text-center" style="font-size:14px;font-weight:500;">Content Developer</div>-->
+<!--              <div class="company-description">-->
+<!--                <p style="text-align:justify;font-size:14px;">-->
+<!--                     Coordinating with client to promote their businesses with marketing strategies-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <hr style="opacity: 0.20">-->
+<!--            <br>-->
+<!--            <div class="company-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title" style="font-size:14px;font-weight:600;">Thomas Innovation</div>-->
+<!--              <div style="font-size:11px">Jan 2015 – Jun 2016</div>-->
+<!--            </div>-->
+
+<!--            <div class="job-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title text-center" style="font-size:14px;font-weight:500;">Technical Writer</div>-->
+<!--              <div class="company-description">-->
+<!--                <p style="text-align:justify;font-size:14px;">-->
+<!--                    Creating content for software products for documentation purpose-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <hr style="opacity: 0.20">-->
+<!--            <br>-->
+<!--            <br>-->
+<!--            <br>-->
+<!--            <br>-->
+<!--            <h2 class="experience-title" style="font-family:monospace;">EDUCATION SUMMARY</h2><br>-->
+<!--            <div class="company-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title" style="font-size:14px;font-weight:600;">Bachelor's of Engineering</div>-->
+<!--              <div style="font-size:11px">Aug 2010 – May 2014</div>-->
+<!--            </div>-->
+
+<!--            <div class="job-wrapper clearfix" style="margin-bottom:20px !important;">-->
+<!--                <div class="experience-title text-center" style="font-size:14px;font-weight:500;">B.E. in Electronics & Instrumentation</div>-->
+<!--              <div class="company-description">-->
+<!--                <p style="font-size:14px;" class="text-center">-->
+<!--                    CGPA of 7.164 from Jeppiaar Engineering College-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </section>-->
+
+        <section class="resume-download-container">
+            <a href="#" class="btn btn-primary btn-block btn-center" style="color:black;background-color:#d9b99b !important;">Download Resume</a>
+        </section>
+
+
+    <script src = "js/main.js"></script>
+</body>
+</html>
