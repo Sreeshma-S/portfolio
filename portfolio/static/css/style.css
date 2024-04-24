@@ -831,6 +831,7 @@ img {
     }
 }
 
+
 /* for different device height */
 @media (max-width: 600px) and (max-height: 950px) {
     /* About */
@@ -841,6 +842,13 @@ img {
 }
 
 @media (max-width: 500px) and (max-height: 950px) {
+    /* About */
+    .identity-card {
+        left: -68%;
+    }
+}
+
+@media (min-width: 299px) and (max-height: 499px) {
     /* About */
     .identity-card {
         left: -68%;
